@@ -72,8 +72,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <ul>
-  <li><a href="">Live Demo Link</a></li>
-  <li><a href=""><img src="./Capture d'écran 2023-05-29 121415.png"></a></li>
+  <li><a href="https://melybee-07.github.io/Awesome-books/">Live Demo Link</a></li>
+  <li><a href="https://melybee-07.github.io/Awesome-books/"><img src="./Capture d'écran 2023-05-29 121415.png"></a></li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
