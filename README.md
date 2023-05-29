@@ -1,40 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awsome Books
+</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -58,38 +29,30 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 [Awsome Books] <a name="about-project"></a>
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Awsome Books]** This is a simple web application that allows users to create and manage a collection of books. It is implemented using plain JavaScript and localStorage for data persistence.
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- Plain JavaScript
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>Linters</li>
+  <li>JavaScript</li>
+</ul>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config">Linters</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">CSS</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">JS</a></li>
   </ul>
 </details>
 
@@ -97,11 +60,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Add a new book to the collection by providing the title and author.
+- Remove a book from the collection.
+- Display all books saved in the collection on the page.
+- Preserve data in the browser's memory using localStorage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +71,10 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+<ul>
+  <li><a href="">Live Demo Link</a></li>
+  <li><a href=""><img src="./Capture d'écran 2023-05-29 121415.png"></a></li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,115 +82,53 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
-Clone this repository to your desired folder:
+1. Clone this repository to your desired folder:
 
-<!--
-Example commands:
+git clone https://github.com/melybee-07/Awesome-books.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+2. Open the project directory: cd Awsome-Books
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+<ul>
+  <li>you need to install the Linters for the  <a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">HTML-CSS & JS </a> Documents</li>
+</ul>
 
 ### Usage
 
-To run the project, execute the following command:
+Use the form to add books to the collection. Enter the title and author of the book and click the "Add" button. The book will be added to the collection and displayed on the page.
+To remove a book, click the "Remove" button next to the book in the list. The book will be removed from the collection and disappear from the page.
 
-<!--
-Example command:
+### Run test
 
-```sh
-  rails server
-```
---->
+to run the tests to make sure no Linters errors, run the following command:
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+<ul>
+  <li>npx stylelint "**/*.{css,scss}"</li>
+  <li>npx eslint .</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Melissa Mazir**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@melybee-07](https://github.com/melybee-07)
+- Twitter: [@mazir_melissa](https://twitter.com/mazir_melissa)
+- LinkedIn: [melissa mazir](https://www.linkedin.com/in/melissa-mazir-172574223/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+### 🔭 Future Features <a name="Future Features"></a>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+Project 1: Manage books collection (plain JS with objects).
+Project 2: Manage books collection (plain JS with classes) and add basic CSS.
+Project 3: Create a complete website with navigation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -235,7 +136,10 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [@SAZZAD1Q2](https://github.com/SAZZAD1Q2)
+- Twitter: [@SazzadShaikh11](https://twitter.com/sazzadshaikh11)
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -245,9 +149,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you find this project helpful or interesting, please give it a star ⭐️ on GitHub.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,25 +157,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+thanks to my codding partner for the help
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +165,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
