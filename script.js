@@ -45,19 +45,19 @@ function removeBook(index) {
 }
 
 // Handle form submission
-// document.getElementById("bookForm").addEventListener("submit", function (e) {
-//   e.preventDefault();
-//   const titleInput = document.getElementById("title");
-//   const authorInput = document.getElementById("author");
-//   const title = titleInput.value.trim();
-//   const author = authorInput.value.trim();
+document.getElementById("bookForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const titleInput = document.getElementById("title");
+  const authorInput = document.getElementById("author");
+  const title = titleInput.value.trim();
+  const author = authorInput.value.trim();
 
-//   if (title && author) {
-//     addBook(title, author);
-//     titleInput.value = "";
-//     authorInput.value = "";
-//   }
-// });
+  if (title && author) {
+    addBook(title, author);
+    titleInput.value = "";
+    authorInput.value = "";
+  }
+});
 
 // Initial rendering of the book list
 renderBookList();
