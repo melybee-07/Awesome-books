@@ -126,9 +126,9 @@ to run the tests to make sure no Linters errors, run the following command:
 
 ### 🔭 Future Features <a name="Future Features"></a>
 
-Project 1: Manage books collection (plain JS with objects).
-Project 2: Manage books collection (plain JS with classes) and add basic CSS.
-Project 3: Create a complete website with navigation.
+- Project 1: Manage books collection (plain JS with objects).
+- Project 2: Manage books collection (plain JS with classes) and add basic CSS.
+- Project 3: Create a complete website with navigation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
