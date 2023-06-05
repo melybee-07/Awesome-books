@@ -9,12 +9,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>All Awsome books</h1>
-    <div id="bookList"></div>
-    <form id="bookForm">
-      <input type="text" placeholder="title" id="title" required />
-      <input type="text" placeholder="author" id="author" required />
-      <button type="submit" id="AddButton">Add</button>
-    </form>
+    <nav>
+      <ul>
+        <li><h1>Awsome Books</h1></li>
+        <li><a href="#" id="booksLink">Books</a></li>
+        <li><a href="#" id="addBookLink">Add Book</a></li>
+        <li><a href="#" id="contactLink">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="booksSection">
+        <h1>All Awsome books</h1>
+        <div id="bookList"></div>
+      </section>
+
+      <section id="addBookSection">
+        <h1>Add a Book</h1>
+        <form id="bookForm">
+          <input type="text" placeholder="title" id="title" required />
+          <input type="text" placeholder="author" id="author" required />
+          <button type="submit" id="AddButton">Add</button>
+        </form>
+      </section>
+
+      <section id="contactSection">
+        <h1>Contact Info</h1>
+        <p>Do have any questuins or you just want to say "Hello"?</p>
+        <p>You can reach out to us!</p>
+        <p>Phone: +213-xxx xxxx xx</p>
+        <p>Email: melissamazir07@gmail.com</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Awesome Books App</p>
+    </footer>
   </body>
 </html>
